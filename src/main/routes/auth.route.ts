@@ -32,7 +32,7 @@ export default (app: FastifyInstance): void => {
       // Just a test
       .get('/list', {
         handler: (request: FastifyRequest, reply: FastifyReply) => {
-          const token = 'BQCgHflvfektVYNYQEKGvMnrtOBQJSBhqLM7rIzR-qskouIG87_mar_12XIRQD80Gbw5WqJh77iS_c1kOuTe0OjLtuIrlgxeNpY23NnY_CT_O2MAMOH7HSgcR7UvfrSXM23gUNtR14i1GBfsdmbQNDwGpJSBjf2QQdqQYKnxNw3nb90&token_type=Bearer&expires_in=3600&state=XrDYgb00';
+          const token = 'token';
           axios
             .get(
               'https://api.spotify.com/v1/me',
